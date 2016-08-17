@@ -1,0 +1,12 @@
+.video {
+    background-image: url('img/city.jpeg');
+    height: 330px;
+    width: 600px;
+    margin-bottom: 50px;
+}
+
+/* Hide Play button + controls on iOS */
+
+video::-webkit-media-controls {
+    display: none !important;
+}
